@@ -102,9 +102,6 @@ This project uses BLoC (Business Logic Component) pattern for state management. 
 ## Acknowledgments
 - Flutter team for the amazing framework
 - Firebase for authentication services![WhatsApp Image 2025-05-07 at 15 12 13_997d371a](https://github.com/user-attachments/assets/cf5c5c69-5750-49c9-90f6-4790079c6ccf)
-![3](https://github.com/user-attachments/assets/45d6269c-23ff-42ff-b98e-c28eb2d79477)
-![2](https://github.com/user-attachments/assets/69e0c20a-8900-4e28-9f6e-f0b2631c2a56)
-![WhatsApp Image 2025-05-07 at 15 12 13_25c0c634](https://github.com/user-attachments/assets/3631fd5e-bb37-4904-a236-01f8aec2ae0e)
-![WhatsApp Image 2025-05-07 at 15 12 13_25c0c634](https://github.com/user-attachments/assets/827b0b7a-066d-4f88-8f54-6770d0e0aee7)
-![WhatsApp Image 2025-05-07 at 15 12 13_25c0c634](https://github.com/user-attachments/assets/6cec7ec4-8cc4-408e-8b3c-69fbc16ae995)
 ![WhatsApp Image 2025-05-07 at 15 12 13_a636735f](https://github.com/user-attachments/assets/3113a709-1f4f-4393-8f55-a491b0ce15aa)
+![2](https://github.com/user-attachments/assets/69e0c20a-8900-4e28-9f6e-f0b2631c2a56)
+![3](https://github.com/user-attachments/assets/45d6269c-23ff-42ff-b98e-c28eb2d79477)
