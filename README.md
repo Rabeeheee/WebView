@@ -1,16 +1,110 @@
-# bw_task_bloc
+# Flutter Phone Authentication App
 
-A new Flutter project.
+## Overview
+A three-page mobile application built with Flutter and Firebase, demonstrating proficiency in UI/UX design, state management (BLoC), and integration of web and native functionalities.
+
+## Features
+- **Phone Number Authentication**: Secure login using phone number verification
+- **OTP Verification**: One-time password verification through Firebase
+- **Web View Integration**: Interactive web view that adjusts layout based on keyboard presence
+
+## Screenshots
+[Add screenshots here]
+
+## Technologies Used
+- Flutter (latest version)
+- Firebase Authentication
+- BLoC State Management
+- WebView Flutter
+
+## Project Structure
+```
+lib/
+├── blocs/            # BLoC related files
+│   ├── auth/         # Authentication BLoCs
+│   └── webview/      # WebView BLoCs
+├── models/           # Data models
+├── repositories/     # Data repositories
+├── screens/          # UI screens
+├── services/         # Firebase and other services
+└── widgets/          # Reusable UI components
+```
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+- Flutter SDK (latest version)
+- Dart SDK (latest version)
+- Firebase project setup
+- Android Studio / VS Code
 
-A few resources to get you started if this is your first Flutter project:
+### Installation
+1. Clone the repository:
+   ```
+   git clone https://github.com/Rabeeheee/WebView.git
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. Navigate to project directory:
+   ```
+   cd WebView
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. Install dependencies:
+   ```
+   flutter pub get
+   ```
+
+4. Configure Firebase:
+   - Create a new Firebase project
+   - Add Android/iOS apps to the project
+   - Download and add the `google-services.json` (Android) or `GoogleService-Info.plist` (iOS) files
+   - Follow the Firebase setup instructions
+
+5. Run the app:
+   ```
+   flutter run
+   ```
+
+## Features Implementation Details
+
+### Page 1: Enter Phone Number
+- User inputs phone number
+- Validation for correct format
+- Sends verification code via Firebase
+
+### Page 2: OTP Verification
+- User enters the OTP received
+- Firebase verifies the OTP
+- Navigates to web view upon successful verification
+
+### Page 3: Web View
+- Displays https://flutter.dev/showcase
+- Adjusts layout based on keyboard presence
+- Maintains smooth interaction between web view and native keyboard
+
+## State Management
+This project uses BLoC (Business Logic Component) pattern for state management. The BLoC pattern separates business logic from UI, making the code more maintainable and testable.
+
+## Firebase Integration
+- Phone authentication using Firebase Auth
+- Secure OTP verification
+
+## Contributing
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+[Add your license here]
+
+## Acknowledgments
+- Flutter team for the amazing framework
+- Firebase for authentication services![WhatsApp Image 2025-05-07 at 15 12 13_997d371a](https://github.com/user-attachments/assets/cf5c5c69-5750-49c9-90f6-4790079c6ccf)
+![3](https://github.com/user-attachments/assets/45d6269c-23ff-42ff-b98e-c28eb2d79477)
+![2](https://github.com/user-attachments/assets/69e0c20a-8900-4e28-9f6e-f0b2631c2a56)
+![WhatsApp Image 2025-05-07 at 15 12 13_25c0c634](https://github.com/user-attachments/assets/3631fd5e-bb37-4904-a236-01f8aec2ae0e)
+![WhatsApp Image 2025-05-07 at 15 12 13_25c0c634](https://github.com/user-attachments/assets/827b0b7a-066d-4f88-8f54-6770d0e0aee7)
+![WhatsApp Image 2025-05-07 at 15 12 13_25c0c634](https://github.com/user-attachments/assets/6cec7ec4-8cc4-408e-8b3c-69fbc16ae995)
+![WhatsApp Image 2025-05-07 at 15 12 13_a636735f](https://github.com/user-attachments/assets/3113a709-1f4f-4393-8f55-a491b0ce15aa)
