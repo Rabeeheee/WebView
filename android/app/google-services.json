@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "225935017752",
+    "project_id": "bwpages-92a32",
+    "storage_bucket": "bwpages-92a32.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225935017752:android:e25b9c54162520239b006d",
+        "android_client_info": {
+          "package_name": "com.example.bw_pages"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtew3g5Xck-Co43Foe6Po6Bli6etAgmoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225935017752:android:019a3a6b54575ce49b006d",
+        "android_client_info": {
+          "package_name": "com.example.bw_task_bloc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtew3g5Xck-Co43Foe6Po6Bli6etAgmoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
